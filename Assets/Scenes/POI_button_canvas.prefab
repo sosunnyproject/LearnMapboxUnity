@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3781405519472761360}
   - component: {fileID: 306883354931096808}
   - component: {fileID: 8737620945236424889}
+  - component: {fileID: -1252834378939985917}
   m_Layer: 5
   m_Name: POI_button_canvas
   m_TagString: Untagged
@@ -196,6 +197,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a564ca7f7514304e89d0481935a11d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &-1252834378939985917
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815478748148083788}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2762412508405761664
 GameObject:
   m_ObjectHideFlags: 0
